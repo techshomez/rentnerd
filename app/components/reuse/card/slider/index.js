@@ -8,7 +8,12 @@ const CardSlider = () => {
   return (
     <div className="slider">
       <div className="wrapper">
-        <Slider dots slidesToShow={3} autoplay={false} arrows={false}>
+        <h1>Most Viewed</h1>
+        <p>
+          Discover a range of vacation homes worldwide, book securely and get
+          expert customer support for a stress free stay.
+        </p>
+        <Slider dots slidesToShow={3} autoplay={true} arrows={false}>
           <div className="slider__item">
             <Image
               src="/images/card_image/3.jpg"
