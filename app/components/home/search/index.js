@@ -12,7 +12,7 @@ const Search = () => {
               <FiChevronDown />
             </i>
           </h2>
-          <input type="text" placeholder="City" value="123 Street" />
+          <input type="text" placeholder="City" value="" />
         </div>
         <div className="search__items">
           <h2>
@@ -21,7 +21,7 @@ const Search = () => {
               <FiChevronDown />
             </i>
           </h2>
-          <input type="text" placeholder="City" value="Vila" />
+          <input type="text" placeholder="City" value="" />
         </div>
         <div className="search__items">
           <h2>
@@ -30,7 +30,7 @@ const Search = () => {
               <FiChevronDown />
             </i>
           </h2>
-          <input type="text" placeholder="City" value="$950,000.00" />
+          <input type="text" placeholder="City" value="" />
         </div>
         <div className="search__btn">
           <button>
