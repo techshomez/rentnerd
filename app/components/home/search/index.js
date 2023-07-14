@@ -1,5 +1,6 @@
 import "./search.css";
-import { FiChevronDown, FiSearch } from "react-icons/fi";
+import { AiOutlineSearch } from "react-icons/ai";
+import { FiChevronDown } from "react-icons/fi";
 
 const Search = () => {
   return (
@@ -12,7 +13,7 @@ const Search = () => {
               <FiChevronDown />
             </i>
           </h2>
-          <input type="text" placeholder="City" value="" />
+          <input type="text" placeholder="City Search" value="" />
         </div>
         <div className="search__items">
           <h2>
@@ -21,7 +22,7 @@ const Search = () => {
               <FiChevronDown />
             </i>
           </h2>
-          <input type="text" placeholder="City" value="" />
+          <input type="text" placeholder="Type of rent" value="" />
         </div>
         <div className="search__items">
           <h2>
@@ -30,12 +31,12 @@ const Search = () => {
               <FiChevronDown />
             </i>
           </h2>
-          <input type="text" placeholder="City" value="" />
+          <input type="text" placeholder="Price" value="" />
         </div>
         <div className="search__btn">
           <button>
             <i>
-              <FiSearch />
+              <AiOutlineSearch />
             </i>
             Search
           </button>
