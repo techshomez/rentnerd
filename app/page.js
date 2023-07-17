@@ -23,12 +23,12 @@ export default function Home() {
         image="/images/bg.jpg"
       />
       <div className="list">
+        <h1>Our work in 3 steps</h1>
+        <article>
+          With their long working hours, cultural obsession with work, and
+          high-stakes schooling system.
+        </article>
         <div className="list__Wrapper">
-          <h1>Our work in 3 steps</h1>
-          <article>
-            With their long working hours, cultural obsession with work, and
-            high-stakes schooling system.
-          </article>
           <div className="list__item">
             <i>
               <FiHome />
