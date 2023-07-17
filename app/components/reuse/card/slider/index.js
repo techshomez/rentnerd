@@ -7,7 +7,7 @@ import { FaBed, FaBath } from "react-icons/fa";
 const CardSlider = () => {
   return (
     <div className="slider">
-      <div className="wrapper">
+      <div className="slider__wrapper">
         <h1>Most Viewed</h1>
         <p>
           Discover a range of vacation homes worldwide, book securely and get
@@ -24,18 +24,18 @@ const CardSlider = () => {
             />
             <div className="list">
               <span>200 maggie-lane, New York, NY, 90000</span>
-              <span>
+              <small>
                 <i>
                   <FaBed />
                 </i>
                 3
-              </span>
-              <span>
+              </small>
+              <small>
                 <i>
                   <FaBath />
                 </i>
                 1
-              </span>
+              </small>
             </div>
             <h2>Ocean breeze villa</h2>
             <h4>$950,000.00</h4>

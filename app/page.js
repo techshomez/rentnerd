@@ -5,6 +5,7 @@ import SideBySide from "./components/reuse/sideBySide";
 import { FiHome, FiKey } from "react-icons/fi";
 import { FaHandshake } from "react-icons/fa";
 import { BsFiletypeKey, BsKey } from "react-icons/bs";
+import "./home.css";
 
 export const metadata = {
   title: "Rentnerd | Home",

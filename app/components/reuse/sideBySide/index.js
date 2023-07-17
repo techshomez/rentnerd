@@ -10,7 +10,7 @@ const SideBySide = ({ title, p_1, p_2, image, main__class, link }) => {
           <Image
             src={image}
             className="side__img"
-            width="500"
+            width="400"
             height="100"
             alt=""
           />
