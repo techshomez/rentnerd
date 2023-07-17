@@ -2,7 +2,7 @@ import SmallButton from "../button/small";
 import "./sidebyside.css";
 import Image from "next/image";
 
-const SideBySide = ({ title, p_1, p_2, image, main__class }) => {
+const SideBySide = ({ title, p_1, p_2, image, main__class, link }) => {
   return (
     <div className="side">
       <div className={main__class}>
@@ -19,7 +19,7 @@ const SideBySide = ({ title, p_1, p_2, image, main__class }) => {
           <h1>{title}</h1>
           <p>{p_1}</p>
           <p>{p_2}</p>
-          <SmallButton name="Try now" />
+          <SmallButton name={link} />
         </div>
       </div>
     </div>

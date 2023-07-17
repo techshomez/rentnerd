@@ -1,3 +1,4 @@
+"use client";
 import Search from "./components/home/search";
 import CardSlider from "./components/reuse/card/slider";
 import SideBySide from "./components/reuse/sideBySide";
@@ -21,6 +22,7 @@ export default function Home() {
         p_1="With their long working hours, cultural obsession with work, and high-stakes schooling system, South Koreans live life in the fast lane. Everyone has the same aim: to be successful. With their long working hours, cultural obsession with work, and high-stakes schooling system."
         p_2="With their long working hours, cultural obsession with work, and high-stakes schooling system."
         image="/images/bg.jpg"
+        link="Try now"
       />
       <div className="list">
         <h1>Our work in 3 steps</h1>
@@ -52,6 +54,14 @@ export default function Home() {
           </div>
         </div>
       </div>
+      <SideBySide
+        main__class="left__image right__image"
+        title="Get the house in trust by working with our agents"
+        p_1="With their long working hours, cultural obsession with work, and high-stakes schooling system, South Koreans live life in the fast lane. Everyone has the same aim: to be successful. With their long working hours, cultural obsession with work, and high-stakes schooling system."
+        p_2="With their long working hours, cultural obsession with work, and high-stakes schooling system."
+        image="/images/agent.JPG"
+        link="Try now"
+      />
     </div>
   );
 }
