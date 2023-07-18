@@ -1,3 +1,4 @@
+"use client";
 import SmallButton from "../button/small";
 import "./sidebyside.css";
 import Image from "next/image";

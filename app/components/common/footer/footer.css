@@ -3,6 +3,7 @@
   padding-top: 2rem;
   padding-bottom: 2rem;
   background-color: #fff;
+  border-top: 1px solid #f1f1f1;
 }
 
 .footer .footer__wrapper {
@@ -110,7 +111,7 @@
   color: gray;
   font-size: 15px;
   line-height: 22px;
-  font-weight: 400;
+  font-weight: 4+00;
 }
 
 .footer .footer__wrapper .footer__item .footer__list > span > i {

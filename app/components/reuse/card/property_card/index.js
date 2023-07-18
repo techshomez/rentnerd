@@ -1,3 +1,4 @@
+"use client";
 import "./card.css";
 
 const PropertyCard = () => {

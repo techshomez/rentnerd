@@ -1,3 +1,4 @@
+"use client";
 import "./search.css";
 import { AiOutlineSearch } from "react-icons/ai";
 import { FiChevronDown } from "react-icons/fi";

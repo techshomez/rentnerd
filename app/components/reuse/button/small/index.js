@@ -1,3 +1,4 @@
+"use client";
 import "./small.css";
 
 const SmallButton = ({ name }) => {

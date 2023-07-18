@@ -122,3 +122,303 @@
   border-radius: 5px;
   color: #194668;
 }
+
+.header .navbar .m__icon {
+  display: none;
+}
+
+/* Responsive */
+@media (max-width: 820px) {
+  .header {
+    height: 560px;
+    background-image: url("/images/bg_2.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    object-fit: contain;
+  }
+
+  .header .navbar {
+    padding: 1.5rem 4%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 999;
+  }
+
+  .header.nav_sticky {
+    padding: 1.5rem 4%;
+    height: 80px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #fff;
+    position: fixed;
+    top: 0;
+    transition: 0.3s ease-in-out;
+    right: 0;
+    left: 0;
+    overflow: hidden;
+    border-bottom: 2px solid #194668;
+    box-shadow: rgba(0, 0, 0, 0.12) 0px 1px 3px, rgba(0, 0, 0, 0.24) 0px 1px 2px;
+  }
+
+  .header .navbar .left .logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 0.2rem;
+    color: #fff;
+  }
+
+  .header .navbar .middle {
+    display: none;
+  }
+
+  .header .navbar .right {
+    display: none;
+  }
+
+  .header .navbar.nav_sticky .left .logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 0.2rem;
+    color: #194668;
+  }
+
+  .header .navbar .left .logo > i {
+    font-size: 30px;
+  }
+
+  .header .navbar .m__icon {
+    display: initial;
+  }
+
+  .header .navbar .m__icon > i {
+    font-size: 35px;
+    font-weight: 600;
+    color: #fff;
+    cursor: pointer;
+  }
+
+  .header .navbar.nav_sticky .m__icon > i {
+    font-size: 35px;
+    font-weight: 600;
+    color: #194668;
+    cursor: pointer;
+    transition: 01s ease-out;
+  }
+
+  .header .mobile__menu {
+    position: relative;
+    width: 100%;
+    height: 60%;
+    overflow: hidden;
+    background-color: #fff;
+    z-index: 999;
+  }
+
+  .header .mobile__menu .menu__item {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    top: 30px;
+    gap: 1rem;
+    padding: 1rem;
+    padding-top: 2rem;
+  }
+
+  .header .mobile__menu .menu__item > a {
+    position: relative;
+    font-size: 18px;
+    line-height: 30px;
+    font-weight: 500;
+    color: gray;
+  }
+
+  .header .mobile__menu .menu__item > a::before {
+    content: "";
+    position: absolute;
+    bottom: -2px;
+    left: 0;
+    width: 10%;
+    height: 2px;
+    background-color: #194668;
+    transform: scaleX(0);
+    transition: transform 0.3s ease;
+  }
+
+  .header .mobile__menu .menu__item > a:hover {
+    color: #194668;
+  }
+
+  .header .mobile__menu .menu__item > a:hover::before {
+    transform: scaleX(1);
+  }
+
+  .header .mobile__menu > button {
+    width: 100%;
+    height: 50px;
+    position: absolute;
+    bottom: 0;
+    border: none;
+    color: #fff;
+    font-size: 18px;
+    font-weight: 500;
+    background-color: #194668;
+    font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  }
+
+  .header .mobile__menu > button:hover {
+    color: #194668;
+    border: 1px solid #194668;
+    background-color: #fff;
+  }
+}
+@media (max-width: 477px) {
+  .header {
+    height: 560px;
+    background-image: url("/images/bg_2.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    object-fit: contain;
+  }
+
+  .header .navbar {
+    padding: 1.5rem 4%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 999;
+  }
+
+  .header.nav_sticky {
+    padding: 1.5rem 4%;
+    height: 80px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #fff;
+    position: fixed;
+    top: 0;
+    transition: 0.3s ease-in-out;
+    right: 0;
+    left: 0;
+    overflow: hidden;
+    border-bottom: 2px solid #194668;
+    box-shadow: rgba(0, 0, 0, 0.12) 0px 1px 3px, rgba(0, 0, 0, 0.24) 0px 1px 2px;
+  }
+
+  .header .navbar .left .logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 0.2rem;
+    color: #fff;
+  }
+
+  .header .navbar .middle {
+    display: none;
+  }
+
+  .header .navbar .right {
+    display: none;
+  }
+
+  .header .navbar.nav_sticky .left .logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 0.2rem;
+    color: #194668;
+  }
+
+  .header .navbar .left .logo > i {
+    font-size: 30px;
+  }
+
+  .header .navbar .m__icon {
+    display: initial;
+  }
+
+  .header .navbar .m__icon > i {
+    font-size: 35px;
+    font-weight: 600;
+    color: #fff;
+    cursor: pointer;
+  }
+
+  .header .navbar.nav_sticky .m__icon > i {
+    font-size: 35px;
+    font-weight: 600;
+    color: #194668;
+    cursor: pointer;
+    transition: 01s ease-out;
+  }
+
+  .header .mobile__menu {
+    position: relative;
+    width: 100%;
+    height: 60%;
+    overflow: hidden;
+    background-color: #fff;
+    z-index: 1;
+  }
+
+  .header .mobile__menu .menu__item {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    top: 30px;
+    gap: 1rem;
+    padding: 1rem;
+    padding-top: 2rem;
+  }
+
+  .header .mobile__menu .menu__item > a {
+    position: relative;
+    font-size: 18px;
+    line-height: 30px;
+    font-weight: 500;
+    color: gray;
+  }
+
+  .header .mobile__menu .menu__item > a::before {
+    content: "";
+    position: absolute;
+    bottom: -2px;
+    left: 0;
+    width: 10%;
+    height: 2px;
+    background-color: #194668;
+    transform: scaleX(0);
+    transition: transform 0.3s ease;
+  }
+
+  .header .mobile__menu .menu__item > a:hover {
+    color: #194668;
+  }
+
+  .header .mobile__menu .menu__item > a:hover::before {
+    transform: scaleX(1);
+  }
+
+  .header .mobile__menu > button {
+    width: 100%;
+    height: 50px;
+    position: absolute;
+    bottom: 0;
+    border: none;
+    color: #fff;
+    font-size: 18px;
+    font-weight: 500;
+    background-color: #194668;
+    font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  }
+
+  .header .mobile__menu > button:hover {
+    color: #194668;
+    border: 1px solid #194668;
+    background-color: #fff;
+  }
+}
